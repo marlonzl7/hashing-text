@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1A1A1A;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+header h1 {
+    margin: 2rem;
+    color:  #fff;
+}
+
+.input-box textarea, input {
+    width: 250px;
+    height: 50px;
+    margin-bottom: 1.25rem;
+    padding: 0.8rem 1.2rem;
+    border: 1px solid #989EA6;
+    border-radius: 8px;
+}
+
+#saida {
+    background-color: #fff;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.input-box-label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.input-box-label label {
+    color: #FFFFFF;
+}
+
+.btn button {
+    background-color: #39FF14;
+    border: 1px solid #535353;
+    border-radius: 8px;
+    padding: 0.7rem 3rem;
+    cursor: pointer;
+}
+
+.algoritmo-usado p {
+    color: #fff;
+}
